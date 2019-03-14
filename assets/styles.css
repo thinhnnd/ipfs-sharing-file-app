@@ -1,0 +1,279 @@
+body {
+    background: url('../img/wp2337022-blockchain-wallpapers.jpg') no-repeat fixed center;
+    margin: 0;
+    font-family: Quicksand, Roboto, Open Sans, Tahoma, Arial, sans-serif;
+}
+
+.body-page {
+    margin-top: 52px;
+}
+
+.margin-0-auto {
+    margin: 0 auto;
+}
+
+.margin-right-auto {
+    margin-right: auto;
+}
+
+.margin-left-auto {
+    margin-left: auto;
+}
+
+.dp-flex {
+    display: flex;
+}
+
+.color-white {
+    color: #fff;
+}
+
+/* header */
+
+    /* nav full screen */
+
+.nav-top{
+    /* background-color: #4DB99A; */
+    background-image: linear-gradient(to right, #077a67, #118f7e, #19a697, #21bcb1, #2ad3cc);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+
+
+ul.nav-full {
+    list-style-type: none;
+}
+.nav-full a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+
+    display: flex;
+}
+
+.logo .special{
+    text-transform: uppercase;
+    color: #FF851B;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.logo .stack {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    justify-content: center;
+    padding-left: 2px;
+}
+
+.menu-items a{
+    border-left: 2px solid #fff;
+}
+
+.menu-items > .first-item {
+    padding-left: 0;
+    border-left: none;
+}
+
+
+ul.nav-full {
+    display: flex;  
+    height: 52px;
+    padding: 0;
+    margin: 0;  
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.nav-branch {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.menu-items a{
+    padding:0 20px;
+}
+
+.menu-items a:hover {
+    font-weight: 650;
+    color: #FF7043;
+}
+
+.search-area {
+    position: relative;
+}
+
+#search-icon {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    color: #4DB99A;
+}
+
+#search-bar {
+    border: none;
+    padding: 7.5px 5px;
+    font-size: 14px;
+    font-family: Quicksand, Roboto, Open Sans, Tahoma, Arial, sans-serif;
+    width: 300px;
+    
+    line-height: 20px;
+}
+
+
+
+.wraper {
+    max-width: 1300px;
+    margin: 0 auto;
+    outline-color: red;
+}
+/* nav-bot */
+.nav-bot {
+    background-color: #f0f5f7;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 52px;
+    border-bottom: 0.5px solid #e5e5e5;
+}
+
+    /* tag list */
+.tag-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: auto; 
+
+}
+
+.tag {
+    background-color: #fff;
+    color: #FF7043;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.tag a {
+    text-decoration: none;
+}
+
+.tag:hover {
+    background-color: #FF7043;
+    color: #fff;
+}
+
+/* bubble-container */
+.bubble-container {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.white-bg-trans {
+    background: rgba(255, 255, 255, 0.8)
+}
+
+.bubble-container .bubble-head {
+    font-size: 25px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.bubble-user-info {
+    display: flex;
+    font-size: 15px;
+    align-content: center;
+    align-items: center;
+}
+
+.bubble-user-info > div {
+    padding: 2px 5px;
+}
+
+.bubble-user-info .avatar{
+    width: 52px;
+    height: 52px;
+}
+
+.bubble-user-info .avatar img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.bubble-user-info .more {
+    margin-left: auto;
+}
+
+.bubble-user-info .more:hover {
+    cursor: pointer;
+}
+
+.bubble-container .bubble-body.brief {
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.2em;
+}
+
+.bubble-container .bubble-body{
+    height: 500px;
+}
+
+.bubble-body .upload-area {
+    font-size: 56px;
+    color: #077a67;
+}
+
+.bubble-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.opacity-08 {
+    opacity: 0.8;
+}
+
+.bubble-foot .bubble-tag {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.tag-dark {
+    background: #e5e5e5;
+}
+
+/*button*/
+.btn-upload {
+    border: none;
+    background-color: #FF851B;
+    padding: 10px 20px;
+    color: #fff;
+    opacity: 1;
+}
+
+
+/* responsive */ 
+/* @media scre
+ */
